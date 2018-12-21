@@ -1,0 +1,101 @@
+h1 {
+    font-size: 2em;
+}
+
+section div {
+    margin-bottom: 30px;
+}
+
+label {
+    vertical-align: top;
+    display: inline-block;
+    width: 200px;
+}
+
+textarea {
+    height: 150px;
+    width: 250px;    
+}
+
+#txtFieldOutput {
+    background-color: #FFFFFF;
+    border: 1px dotted red;    
+    height: 150px;
+    width: 450px;    
+    margin: 0;
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 10px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.1em;    
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box p {    
+    margin: auto;   
+}
+
+.red {
+    background-color: #ea4335;
+}
+
+.green {
+    background-color: #34a853;
+}
+
+.blue {
+    background-color: #4285F4;
+}
+
+.yellow {
+    background-color: #FBBC05;
+}
+
+.black {
+    background-color: #000;
+    color: #FFF;
+}
+
+.grey {
+    background-color: #808080;
+}
+
+.orange {
+    background-color: #CF5300;
+}
+
+.purple {
+    background-color: #9932CC;
+}
+
+
+.deepsky {
+    background-color: #00BFFF;
+}
+
+.selected {
+    border: 5px solid green;
+}
+
+.selected-field {
+    border: 2px solid blue;
+}
+
+.special {
+    font-weight: bold;
+}
+
+#billingAddress{
+    display: none;
+}
+
+.subcheck {
+    margin-left: 20px;
+}

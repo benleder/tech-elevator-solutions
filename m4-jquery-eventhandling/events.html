@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="events.css" type="text/css" />
+</head>
+<body>
+    <section id="mainContent">
+
+        <h2>Click Box</h2>
+        <div>
+            <!-- DEEP SKY BOX-->
+            <div id="deepSkyBox" class="box deepsky">
+                <p>Click Me!</p>
+            </div>
+        </div>
+
+        <h2>Rainbow Boxes</h2>
+        <div id="box-rainbow">
+            <!-- BOXES -->
+            <div id="box1" class="red box">
+                <p>Box 1</p>
+                <button>Swap --&gt;</button>
+            </div>
+            <div id="box2" class="blue box">
+                <p>Box 2</p>
+                <button>&lt;--Swap</button>
+            </div>
+            <div id="box3" class="yellow box">
+                <p>Box 3</p>
+                <button>&lt;--Swap</button>
+            </div>
+            <div id="box4" class="green box">
+                <p>Box 4</p>
+                <button>&lt;--Swap</button>
+            </div>
+            <div id="box5" class="grey box">
+                <p>Box 5</p>
+                <button>Swap --&gt;</button>
+            </div>
+            <div id="box6" class="black box">
+                <p>Box 6</p>
+                <button>Swap --&gt;</button>
+            </div>
+            <div id="box7" class="purple box">
+                <p>Box 7</p>
+                <button>Swap  --&gt;</button>
+            </div>
+            <div id="box8" class="orange box">
+                <p>Box 8</p>
+                <button>&lt;--Swap</button>
+            </div>
+            <br />
+            <div>
+                <h3>Selected Boxes</h3>
+                <button id="hideSelectedBoxes">Hide Selected Boxes</button><br/>
+                <button id="showAllBoxes">Show All Boxes</button><br/>
+                <button id="refreshSelectedBoxList">Refresh List</button>
+                <ul id="selectedBoxList">
+                    <li>No items selected...</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FORM FIELDS -->
+        <h2>Form Elements</h2>
+        <div>
+            <h3>Shipping Address</h3>
+            <div id="shippingAddress">
+                <label for="shippingStreetAddress">Street Address</label>
+                <input type="text" name="shippingStreetAddress" />
+                <br/>
+                <label for="shippingCity">City</label>
+                <input type="text" name="shippingCity" />
+                <br/>
+                <label for="shippingState">State</label>
+                <select name="shippingState">
+                    <option>Michigan</option>
+                    <option>Ohio</option>
+                    <option>Pennsylvania</option>
+                </select>
+            </div>
+
+            <input type="checkbox" id="differentBillingAddress" />My billing address is different
+
+            <div id="billingAddress">
+                <h3>Billing Address</h3>
+                <label for="billingStreetAddress">Street Address</label>
+                <input type="text" name="billingStreetAddress" />
+                <br />
+                <label for="billingCity">City</label>
+                <input type="text" name="billingCity" />
+                <br />
+                <label for="billingState">State</label>
+                <select name="billingState">
+                    <option>Michigan</option>
+                    <option>Ohio</option>
+                    <option>Pennsylvania</option>
+                </select>
+            </div>
+        </div>
+
+        <h3>Repeating Text Box</h3>
+        <div>
+            <label for="txtField">Repeating Text Box</label>
+            <textarea name="txtField" id="txtField"></textarea>
+            <p id="txtFieldOutput">Text goes here...</p>
+        </div>
+
+        <h3>Check All Checkbox</h3>
+        <div>
+            <input type="checkbox" id="checkAll" /> Mark all as checked<br/>
+            <input type="checkbox" class="subcheck" id="chkMilk" /> Milk<br/>
+            <input type="checkbox" class="subcheck" id="chkCoffee" /> Coffee<br/>
+            <input type="checkbox" class="subcheck" id="chkGum" /> Gum<br/>
+            <input type="checkbox" class="subcheck" id="chkBread" /> Bread<br/>
+
+        </div>
+
+    </section>
+    <script src="events.js"></script>
+
+</body>
+</html>

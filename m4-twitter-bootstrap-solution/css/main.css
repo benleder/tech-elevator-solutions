@@ -1,0 +1,112 @@
+.navbar {
+    margin-bottom: 0;
+}
+#welcome {
+    height: 300px;
+    background-color: #191919;
+    color: #fff;
+}
+#welcome .btn {
+    margin-top: 16px;
+}
+#features .features-item {
+    text-align: center;
+    padding: 20px;
+    height: 270px;
+}
+#features .features-item .icon {
+      font-size: 90px;
+}
+#impact .hreview {
+     position: relative;
+     padding: 0 10px;
+     border: none;
+}
+#impact .hreview .caption {
+    position: absolute;
+    top: auto;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    line-height: 1.1;
+    background: hsla(0,0,10%,0.55);
+}
+#impact .hreview .caption blockquote .reviewer {
+      margin: 0 6px;
+      padding: 0;
+}
+blockquote {
+    margin-top: 4px;
+    border: none;
+    color: #fff;
+}
+#signup table {
+    border: 1px solid black;
+}
+#signup table thead th {
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+#signup table thead th h2 {
+    text-transform: uppercase;
+}
+#signup table tbody td {
+        padding-left: 16px;
+        padding-right: 16px;
+}
+#signup table tfoot td .btn {
+      display: block;
+      width: 100%;
+      background-color: lightgray;
+      color: #fff;
+}
+.price {
+      font-size: 7em;
+      line-height: 1;
+      margin-left: -0.25em;
+}
+.price span {
+        font-size: .5em;
+        vertical-align: super;
+}
+#signup .package-basic table thead th {
+    background-color: #428bca;
+}
+#signup .package-premium table thead th {
+    background-color: #5cb85c;
+}
+#signup .package-pro table thead th {
+    background-color: #d9534f;;
+}
+#signup .package-basic .btn {
+    background-color: #428bca;
+}
+#signup .package-premium .btn {
+    background-color: #5cb85c;
+}
+#signup .package-pro .btn {
+    background-color: #d9534f;;
+}
+@media (min-width: 480px) {
+  #welcome {
+   height: 480px;
+  }
+}
+@media (min-width: 768px) {
+  #welcome {
+      background: #191919 url('../img/te_present_906x600.jpg') center center no-repeat;
+  }
+}
+@media (min-width: 1200px) {
+  #welcome {
+    height: 540px;
+    background: #191919 url('../img/te_present_1600x1060.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
